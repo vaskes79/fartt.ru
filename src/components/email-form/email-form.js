@@ -96,7 +96,7 @@ class EmailForm extends Component {
           email,
           message,
         },
-        process.env.EMAILJS_UID
+        process.env.GATSBY_EMAILJS_UID
       )
       .then(res => {
         this.setState({
