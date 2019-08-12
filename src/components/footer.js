@@ -7,9 +7,7 @@ import styles from "./footer.module.css"
 
 const { footer, footerPage, inner, left, right, bottom, innerHome } = styles
 
-const Footer = () => {
-  const path = window.location.pathname === "/"
-
+const Footer = ({ path = false }) => {
   return (
     <footer className={path ? footer : cn(footer, footerPage)}>
       <div className={path ? innerHome : inner}>

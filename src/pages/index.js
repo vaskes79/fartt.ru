@@ -13,7 +13,7 @@ const IndexPage = ({
     allStrapiActor: { edges: actors },
   },
 }) => (
-  <Layout>
+  <Layout path={true}>
     <SEO title={title_ru} description={description_ru} />
     <ReactMarkdown escapeHtml={false} source={intro_ru} />
     <ReactMarkdown escapeHtml={false} source={description_ru} />

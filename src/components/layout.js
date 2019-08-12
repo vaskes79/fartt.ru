@@ -15,7 +15,7 @@ import Nav from "./nav"
 import "./layout.css"
 import "./hamburgers.css"
 
-const Layout = ({ children, pageContext }) => {
+const Layout = ({ children, pageContext, path }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -35,10 +35,7 @@ const Layout = ({ children, pageContext }) => {
   return (
     <>
       <Nav />
-      <Header
-        siteLogo={data.file.childImageSharp.fluid}
-        siteTitle={data.site.siteMetadata.title}
-      />
+      <Header siteLogo={data.file.childImageSharp.fluid} siteTitle={data.site.siteMetadata.title} />
       <main
         style={{
           margin: `0 auto`,
@@ -49,7 +46,7 @@ const Layout = ({ children, pageContext }) => {
       >
         {children}
       </main>
-      <Footer />
+      <Footer path={path} />
     </>
   )
 }
