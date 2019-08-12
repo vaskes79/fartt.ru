@@ -1,4 +1,4 @@
-require("dotenv").config()
+process.env.NODE_ENV === "development" ? require("dotenv").config() : null
 
 module.exports = {
   siteMetadata: {
