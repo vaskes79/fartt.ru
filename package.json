@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "fartt.ru",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "web site of casting agency fart",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Vasily Guzov <vasily.guzov@gmail.com>",
   "dependencies": {
     "gatsby": "^2.13.58",
     "gatsby-image": "^2.2.8",
@@ -19,6 +19,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "dotenv": "^8.0.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -35,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/vaskes79/fartt.ru"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/vaskes79/fartt.ru/issues"
   }
 }
