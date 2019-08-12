@@ -11,10 +11,10 @@ const SecondPage = () => (
     <p>Welcome to page 2</p>
 
     <ul>
-      <li>{process.env.NODE_ENV}</li>
-      <li>{process.env.EMAILJS_RECEIVER}</li>
-      <li>{process.env.EMAILJS_UID}</li>
-      <li>{process.env.EMAILJS_TEMPLATEID}</li>
+      <li>{process.env.GATSBY_NODE_ENV}</li>
+      <li>{process.env.GATSBY_EMAILJS_RECEIVER}</li>
+      <li>{process.env.GATSBY_EMAILJS_UID}</li>
+      <li>{process.env.GATSBY_EMAILJS_TEMPLATEID}</li>
       <li>{process.env.GATSBY_API_URL}</li>
     </ul>
     <Link to="/">Go back to the homepage</Link>
