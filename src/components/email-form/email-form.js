@@ -23,7 +23,7 @@ class EmailForm extends Component {
   constructor(props) {
     super(props)
     this.reportView = React.createRef()
-    console.log("email", process.env.EMAILJS_RECEIVER)
+    console.log("email", process.env.GATSBY_EMAILJS_RECEIVER)
   }
 
   state = {
@@ -64,9 +64,9 @@ class EmailForm extends Component {
 
     if (name && email && message) {
       this.sendEmail(
-        process.env.EMAILJS_TEMPLATEID,
+        process.env.GATSBY_EMAILJS_TEMPLATEID,
         this.sender,
-        process.env.EMAILJS_RECEIVER,
+        process.env.GATSBY_EMAILJS_RECEIVER,
         name,
         email,
         message
