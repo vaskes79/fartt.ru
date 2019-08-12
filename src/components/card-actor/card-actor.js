@@ -14,7 +14,7 @@ const CardActor = ({ url, name, imgSrc, alt }) => {
       <Link to={url} className={link}>
         <Img className={image} alt={alt} fluid={imgSrc} />
         <div className={description}>
-          <h5 className={title}>{name}</h5>
+          <h4 className={title}>{name}</h4>
         </div>
       </Link>
     </article>

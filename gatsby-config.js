@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `fart agency`,
         short_name: `fartt.ru`,
         start_url: `/`,
         background_color: `#f2849e`,
