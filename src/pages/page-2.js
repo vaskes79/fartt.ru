@@ -11,6 +11,7 @@ const SecondPage = () => (
     <p>Welcome to page 2</p>
 
     <ul>
+      <li>{process.env.NODE_ENV}</li>
       <li>{process.env.EMAILJS_RECEIVER}</li>
       <li>{process.env.EMAILJS_UID}</li>
       <li>{process.env.EMAILJS_TEMPLATEID}</li>
