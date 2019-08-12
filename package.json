@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.0.0",
+    "gatsby-source-strapi": "^0.0.9",
     "prettier": "^1.18.2"
   },
   "keywords": [
