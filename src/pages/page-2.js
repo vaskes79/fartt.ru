@@ -15,7 +15,7 @@ const SecondPage = () => (
       <li>{process.env.EMAILJS_RECEIVER}</li>
       <li>{process.env.EMAILJS_UID}</li>
       <li>{process.env.EMAILJS_TEMPLATEID}</li>
-      <li>{process.env.API_URL}</li>
+      <li>{process.env.GATSBY_API_URL}</li>
     </ul>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
