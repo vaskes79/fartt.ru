@@ -11,6 +11,7 @@ module.exports = {
     author: `vasily.guzov@gmail.com`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
