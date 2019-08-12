@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1em;
+}
+
+.twoColumn {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 64em) {
+  .twoColumn {
+    grid-template-columns: 1fr;
+  }
+}

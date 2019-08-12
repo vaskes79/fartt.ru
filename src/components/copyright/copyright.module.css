@@ -1,0 +1,12 @@
+.container {
+  font-family: "Source Sans Pro";
+  width: 100%;
+  font-size: 0.7em;
+  color: rgba(88, 88, 88, 0.5);
+  padding-bottom: 1.2em;
+}
+
+@media screen and (max-width: 480px) {
+  .copyright {
+  }
+}

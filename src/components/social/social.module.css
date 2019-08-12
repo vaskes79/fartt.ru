@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  color: #585858;
+  font-family: "Source Sans Pro";
+}
+
+.title {
+  font-size: 1.1em;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: inherit;
+  font-family: inherit;
+}
+
+.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  margin: -1em 0 2em -1em;
+}
+
+.icons:last-child {
+  margin-bottom: 0;
+}
+
+.liWrap {
+  display: inline-block;
+  padding: 1em 0 0 1em;
+}
+
+.link {
+  color: inherit;
+  transition: color 0.2s ease;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  background-color: transparent;
+  border: solid 1px #c9c9c9;
+  border-radius: 4px;
+  width: 2.65em;
+  height: 2.65em;
+  display: inline-block;
+  text-align: center;
+  line-height: 2.65em;
+  color: inherit;
+}
+
+.link:hover,
+.link:focus {
+  color: #f2849e;
+  border: solid 1px #f2849e;
+}
+
+.showDataView,
+.showDataView:focus,
+.showDataView:active {
+  border: none;
+  outline: none;
+  background: transparent;
+}

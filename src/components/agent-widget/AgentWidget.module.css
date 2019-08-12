@@ -1,0 +1,40 @@
+.container {
+}
+.label {
+  font-size: 0.8em;
+}
+
+.name {
+  margin-top: -0.5em;
+  margin-bottom: 0;
+}
+
+.name a {
+  border-bottom: none;
+}
+
+.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.icons li {
+  display: inline-block;
+  margin: 0;
+  padding-right: 1em;
+}
+
+.icons li a {
+  font-size: 0.8em;
+  border-bottom: none;
+}
+
+.showDataView,
+.showDataView:focus,
+.showDataView:active {
+  border: none;
+  outline: none;
+  background: transparent;
+}
