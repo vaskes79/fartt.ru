@@ -4,12 +4,12 @@
   font-size: 0.8em;
 }
 
-.name {
+.nameStyle {
   margin-top: -0.5em;
   margin-bottom: 0;
 }
 
-.name a {
+.nameStyle a {
   border-bottom: none;
 }
 

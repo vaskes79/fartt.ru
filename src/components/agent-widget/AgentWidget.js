@@ -6,10 +6,10 @@ import { faEnvelope, faPhone, faFileDownload } from "@fortawesome/free-solid-svg
 import { faFacebookF, faInstagram, faVk, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { isMobile } from "react-device-detect"
 
-const { container, icons, label, name, showDataView } = styles
+const { container, icons, label, nameStyle, showDataView } = styles
 
 const AgentWidget = ({
-  agent: { name_ru = null, name_en, phone, email, facebook, vkontakte, instagram, linkedin },
+  agent: { name_ru, name_en, phone, email, facebook, vkontakte, instagram, linkedin },
 }) => {
   let viewBox = React.createRef()
   const printPage = e => {
@@ -33,7 +33,7 @@ const AgentWidget = ({
   return (
     <div className={container}>
       <em className={label}>агент</em>
-      <h4 className={name}>
+      <h4 className={nameStyle}>
         <Link to={`/agent/${createUrl(name_en)}`}>{name_ru}</Link>
       </h4>
       <ul className={icons}>
