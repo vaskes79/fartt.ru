@@ -1,5 +1,5 @@
 import React from "react"
-import Icon from "./icon"
+import Icon from "./icon-comp"
 
 export const createUrl = rowUrl =>
   rowUrl
