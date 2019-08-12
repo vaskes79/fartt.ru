@@ -30,7 +30,6 @@ const ActorComponent = ({
     placehoder,
     strapiActor: {
       name_ru,
-      name_en,
       birth_date,
       height,
       size,
@@ -40,14 +39,13 @@ const ActorComponent = ({
       drive_lisence,
       photos,
       content_ru,
-      content_en,
       agent,
     },
   },
 }) => (
   <Layout>
     <div className={container}>
-      <h1 className={name}>{name_ru || name_en}</h1>
+      <h1 className={name}>{name_ru}</h1>
       <div className={titlePhoto}>
         <Img fluid={title_photo.childImageSharp.fluid || placehoder.childImageSharp.fluid} />
       </div>

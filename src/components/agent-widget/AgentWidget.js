@@ -9,7 +9,7 @@ import { isMobile } from "react-device-detect"
 const { container, icons, label, name, showDataView } = styles
 
 const AgentWidget = ({
-  agent: { name_ru, name_en, phone, email, facebook, vkontakte, instagram, linkedin },
+  agent: { name_ru = null, name_en, phone, email, facebook, vkontakte, instagram, linkedin },
 }) => {
   let viewBox = React.createRef()
   const printPage = e => {
