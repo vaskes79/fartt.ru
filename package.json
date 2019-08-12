@@ -19,8 +19,11 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
     "dotenv": "^8.0.0",
+    "gatsby-plugin-postcss": "^2.1.2",
     "gatsby-source-strapi": "^0.0.9",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^1.18.2"
   },
   "keywords": [

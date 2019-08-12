@@ -2,6 +2,8 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const postCssPlugins = require("./postcss-config.js")
+
 module.exports = {
   siteMetadata: {
     title: `fart agency`,
@@ -15,6 +17,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [...postCssPlugins],
       },
     },
     {
