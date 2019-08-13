@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
