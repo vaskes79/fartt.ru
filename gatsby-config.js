@@ -6,6 +6,7 @@ const postCssPlugins = require("./postcss-config.js")
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://fartt.ru`,
     title: `fart agency`,
     description: `агентство по подбору актёров`,
     author: `vasily.guzov@gmail.com`,
@@ -13,6 +14,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
