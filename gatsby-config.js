@@ -17,6 +17,15 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.fartt.ru",
+        sitemap: "https://www.fartt.ru/sitemap.xml",
+        output: "/robots.txt",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: process.env.GATSBY_GOOGLE_TAG_MANAGER_ID,
