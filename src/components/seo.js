@@ -39,6 +39,7 @@ function SEO({ description, lang, meta, title }) {
           name: `description`,
           content: metaDescription,
         },
+        { name: `yandex-verification`, content: `f1ea8cb942f95c3f` },
         {
           property: `og:title`,
           content: title,
