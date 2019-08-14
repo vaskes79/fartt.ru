@@ -11,6 +11,10 @@
   grid-gap: 0.2em;
 }
 
+.lightBoxStyle {
+  z-index: 1100;
+}
+
 @media screen and (max-width: 30em) {
   .container {
     grid-template-areas:
@@ -42,6 +46,7 @@
 
 .titlePhoto {
   grid-area: photo;
+  cursor: pointer;
 }
 
 .baseInfoLabel {
@@ -76,6 +81,15 @@
 
 .media {
   grid-area: media;
+}
+
+.photo {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.photo:hover {
+  transform: scale(1.02);
 }
 
 .video {
