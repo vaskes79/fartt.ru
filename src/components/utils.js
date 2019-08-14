@@ -5,7 +5,7 @@ export const createUrl = rowUrl =>
   rowUrl
     .trim()
     .toLowerCase()
-    .replace(/\s/, "-")
+    .replace(/\s+/, "-")
 
 export const Li = ({ url = "/", icon, linkStyles, ...props }) => (
   <li {...props}>

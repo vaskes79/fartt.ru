@@ -67,7 +67,7 @@ exports.createPages = ({ actions, graphql }) => {
         path: `/${node.name_en
           .trim()
           .toLowerCase()
-          .replace(/\s+/, "-")}`,
+          .replace(/\s+/gm, "-")}`,
         component: path.resolve(`src/templates/actor.js`),
         context: {
           id: node.id,
