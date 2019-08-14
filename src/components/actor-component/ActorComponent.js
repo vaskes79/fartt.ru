@@ -137,7 +137,7 @@ const ActorComponent = ({
         <Lightbox
           mainSrc={photos[photoIndex].url}
           nextSrc={photos[(photoIndex + 1) % photos.length].url}
-          prevSrc={photos[(photoIndex + photos.length - 1) % photos.length]}
+          prevSrc={photos[(photoIndex + photos.length - 1) % photos.length].url}
           onCloseRequest={closeLightBox}
           reactModalStyle={{ overlay: { zIndex: 1100 } }}
           enableZoom={false}
