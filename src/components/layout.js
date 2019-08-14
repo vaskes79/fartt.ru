@@ -13,7 +13,6 @@ import Header from "./header"
 import Footer from "./footer"
 import Nav from "./nav"
 import "./layout.css"
-import "./hamburgers.css"
 
 const Layout = ({ children, pageContext, path }) => {
   const data = useStaticQuery(graphql`

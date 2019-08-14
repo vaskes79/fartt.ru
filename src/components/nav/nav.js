@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import cn from "classnames"
 
 import menuStyles from "./nav.module.css"
+import "./hamburgers.css"
 
 const { closeInner, overlay, container, openMenu, title, inner, list, close } = menuStyles
 
