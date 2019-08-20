@@ -125,7 +125,7 @@ const ActorComponent = ({
               ) : null}
               {video_showreal ? (
                 <div className={video}>
-                  <h2>Шоуреал</h2>
+                  <h2>Шоурил</h2>
                   <YouTube id={video_showreal} />
                 </div>
               ) : null}
