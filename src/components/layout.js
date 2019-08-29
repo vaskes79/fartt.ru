@@ -29,12 +29,24 @@ const Layout = ({ children, pageContext, path }) => {
           }
         }
       }
+      logo: strapiSetup {
+        logo {
+          childImageSharp {
+            fluid(maxWidth: 300) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
     }
   `)
   return (
     <>
       <Nav />
-      <Header siteLogo={data.file.childImageSharp.fluid} siteTitle={data.site.siteMetadata.title} />
+      <Header
+        siteLogo={data.logo.logo.childImageSharp.fluid || data.file.childImageSharp.fluid}
+        siteTitle={data.site.siteMetadata.title}
+      />
       <main
         style={{
           margin: `0 auto`,
