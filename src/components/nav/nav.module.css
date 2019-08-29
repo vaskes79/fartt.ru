@@ -18,6 +18,7 @@
 
 .container {
   font-family: "Source Sans Pro";
+  font-size: 18px;
   background-color: #585858;
   position: fixed;
   top: 0;
@@ -128,7 +129,7 @@
 }
 
 .openMenu .close {
-  right: 23em;
+  right: 23rem;
   background-color: rgba(255, 255, 255, 0);
 }
 .close button:focus {
@@ -163,25 +164,19 @@
 
 @media screen and (max-width: 46em) {
   .container {
-    transform: translateX(16.5em);
-    width: 16.5em;
+    transform: translateX(16.5rem);
+    width: 16.5rem;
   }
 
   .container .inner {
     padding: 2.75em 1.5em;
   }
   .close {
-    top: 1.5em;
+    top: 1.5rem;
   }
 
   .openMenu .close {
-    right: 16.5em;
-  }
-}
-
-@media screen and (max-width: 30em) {
-  .openMenu .close {
-    right: 18.5rem;
+    right: 17rem;
   }
 }
 
