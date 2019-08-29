@@ -33,7 +33,7 @@ class EmailForm extends Component {
     submited: false,
   }
 
-  static sender = "kinev1979@gmail.com"
+  static sender = process.env.GATSBY_EMAILJS_RECEIVER
 
   handleCancel = event => {
     event.preventDefault()
