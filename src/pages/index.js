@@ -16,7 +16,6 @@ const IndexPage = ({
   <Layout path={true}>
     <SEO title={title_ru} description={description_ru} />
     <ReactMarkdown escapeHtml={false} source={intro_ru} />
-    <ReactMarkdown escapeHtml={false} source={description_ru} />
     <Grid>
       {actors.map(({ node: { id, name_ru, name_en, gender, title_photo } }) => (
         <CardActor
