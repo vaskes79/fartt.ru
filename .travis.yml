@@ -1,0 +1,18 @@
+nguage: node_js
+node_js:
+  - '10'
+script:
+  - yarn install
+  - yarn build
+deploy:
+  provider: s3
+  access_key_id: $AWS_KEY
+  secret_access_key: $AWS_SECRET
+  bucket: $AWS_BUCKET
+  skip_cleanup: true
+  acl: public_read
+  local_dir: public
+  region: eu-north-1
+cache:
+  directories:
+    - node_modules
