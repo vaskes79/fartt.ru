@@ -16,7 +16,7 @@ const Header = ({ siteLogo, siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-    <h1 style={{ margin: 0, maxWidth: "8rem" }}>
+      <h1 style={{ margin: 0, maxWidth: "14rem" }}>
         <Link
           to="/"
           style={{
@@ -24,7 +24,7 @@ const Header = ({ siteLogo, siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-    <Img fluid={siteLogo}/>
+          <Img fluid={siteLogo} />
         </Link>
       </h1>
     </div>
