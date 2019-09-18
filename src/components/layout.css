@@ -691,3 +691,16 @@ pre tt:after {
     page-break-inside: avoid;
   }
 }
+
+/* dev styles tmp*/
+
+.home-logo {
+  max-width: 14rem;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .home-logo {
+    max-width: 12rem;
+  }
+}

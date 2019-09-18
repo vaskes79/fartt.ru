@@ -16,7 +16,7 @@ const Header = ({ siteLogo, siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0, maxWidth: "8rem" }}>
+      <h1 className="home-logo">
         <Link
           to="/"
           style={{
