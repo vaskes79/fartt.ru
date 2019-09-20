@@ -13,6 +13,8 @@ deploy:
   acl: public_read
   local_dir: public
   region: eu-north-1
+  on:
+    branch: master
 cache:
   directories:
     - node_modules
