@@ -1,6 +1,9 @@
 nguage: node_js
 node_js:
   - '10'
+branches:
+  only:
+    - master
 script:
   - yarn install
   - yarn build
@@ -13,8 +16,6 @@ deploy:
   acl: public_read
   local_dir: public
   region: eu-north-1
-  on:
-    branch: master
 cache:
   directories:
     - node_modules
