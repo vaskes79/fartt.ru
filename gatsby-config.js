@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: `https://fartt.ru`,
     title: `fart agency`,
     description: `агентство по подбору актёров`,
-    author: `vasily.guzov@gmail.com`,
+    author: `Vasily Guzov<vasily.guzov@gmail.com>`,
   },
   plugins: [
     `gatsby-plugin-netlify`,
