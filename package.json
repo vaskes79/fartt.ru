@@ -1,7 +1,7 @@
 {
   "name": "fartt.ru",
   "private": true,
-  "description": "web site of casting agency fart",
+  "description": "The web site of casting agency FART",
   "version": "0.1.0",
   "author": "vasily.guzov@gmail.com",
   "dependencies": {
