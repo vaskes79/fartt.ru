@@ -2,7 +2,7 @@
   "name": "fartt.ru",
   "private": true,
   "description": "web site of casting agency fart",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Vasily Guzov <vasily.guzov@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
